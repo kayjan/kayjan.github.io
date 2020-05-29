@@ -42,20 +42,18 @@
 			.mainbody {
 				background-color:white; position:relative; top:120px; left:10%; width:80%; height:auto;
 				display:table; overflow:auto;}
+                        .centerbanner {display:inline-block; position:center;}
+			.leftbanner {display:inline-block; position:absolute; top:15%; right:62%; text-align:right;}
+			.rightbanner {display:inline-block; position:absolute; top:22%; left:62%; text-align:left;}
 			@media (max-width:800px) {
-				f5 {font-size:170%; color:#FFD700; line-height:1.2}
+                                .centerbanner {height:auto; position:center; top:20vh; left:5%; width:90%;}
+				.leftbanner {height:auto; position:relative; top:20vh; left:5%; width:90%; text-align:left;}
+				.rightbanner {height:auto; position:relative; top:20vh; left:5%; width:90%;}
 			}
-
-.mainbodya	{position:absolute; top:0; left:0; height:100%; width:50%;
-		background-color:white; color:black; text-align:justify;
-		box-sizing:border-box; padding:50px;}
-.mainbodyb	{position:absolute; top:0; left:50%; height:100%; width:50%;
-		color:black; box-sizing:border-box; padding:50px;}
-
 		</style>
 	</head>
-	
-	
+
+
 	<noembed><body></noembed>
 		<div class="banner">
 			<span style="display:inline-block; line-height:normal; padding-top:8px; padding-left:2%;">
@@ -71,13 +69,13 @@
 					<a href="https://kayjan.github.io/contact/">Contact</a>
 				</span>
 			</div></div>
-		
-		
+
 		<div class="mainbody" style="position:absolute; top:20vh; left:5%; width:90%; text-align:center; font-size:1.1em;"><br><br>
-			<img style="width:22%" src="https://1.bp.blogspot.com/-N0QlFUXGg7o/WZNQ9nydeEI/AAAAAAAAA8A/bYz3Le4s6mk31qie1cgE0Wwn3etndSi2ACLcBGAs/s1600/me.png" alt="Wong Kay Jan">
-			<br><br>
-			
-			<div style="position:absolute; top:15%; right:62%; text-align:right;">
+			<div class="centerbanner" style="min-width:230px;">
+				<img style="width:22%; min-width: 230px;" src="https://1.bp.blogspot.com/-N0QlFUXGg7o/WZNQ9nydeEI/AAAAAAAAA8A/bYz3Le4s6mk31qie1cgE0Wwn3etndSi2ACLcBGAs/s1600/me.png" alt="Wong Kay Jan">
+			</div>
+
+			<div class="leftbanner" style="min-width:230px;">
 				A highly motivated and creative individual with<br>
 				strong interest in finance and technology.<br>
 				Possesses strong analytical, reasoning and problem-solving skills.<br>
@@ -92,11 +90,10 @@
 				National University of Singapore (NUS)
 				<br>
 				M.Comp Computer Science
-				
-				<br><br>
+				<br><br><br><br>
 			</div>
-			
-			<div style="position:absolute; top:22%; left:62%; text-align:left;">
+
+			<div class="rightbanner" style="min-width:230px;">
 				<a href="mailto:kayjan_wong@alumni.sutd.edu.sg">
 					<img style="height:30px; vertical-align:middle" src="https://2.bp.blogspot.com/-8994mNQGjxM/WZMDWWSDqpI/AAAAAAAAA6Y/4a8GdWCbXRQ9XCUNDjjsOfMREl0M4Iv7ACLcBGAs/s1600/2.%2BEmail.png">
 					<span style="vertical-align:middle;">&nbsp;kayjan_wong@alumni.sutd.edu.sg</span></a>
@@ -113,7 +110,7 @@
 				<br><br>
 			</div>
 		</div>
-		
+
 		<div style="position:fixed; right:1%; bottom:0; padding:0; border:0;">
 			<p style="font-size:65%">Copyright 2020 Wong Kay Jan</p>
 		</div>
