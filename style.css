@@ -186,6 +186,6 @@ input[type=submit]:hover {background-color: #FFC600;}
     .caption {display: none;}
 
     /* Leadership tab */
-    .mod {width: 100%;}
+    .mod {inline-block !important; width: 100%;}
     .mod:hover .hoverpopup 	{visibility: hidden;}
 }
