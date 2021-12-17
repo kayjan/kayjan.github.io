@@ -61,7 +61,7 @@ a[href^="https:"]{color: inherit; text-decoration: none;}
     height: 30px; vertical-align: middle; margin-right: 5px;
 }
 .footnote {
-    position: fixed; right: 1%; bottom: 1%; padding: 0; border: 0;
+    position: fixed; right: 1%; bottom: 1%; padding: 0; border: 0; text-align: right; width: 100%;
 }
 @media (max-width: 800px) {
     .mainbody {display: inline-block; height: auto;}
