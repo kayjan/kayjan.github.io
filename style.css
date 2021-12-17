@@ -47,6 +47,9 @@ a[href^="https:"]{color: inherit; text-decoration: none;}
 .footnote {
     position: fixed; right: 1%; bottom: 1%;
 }
+#education, #projects, #leadership, #volunteer, #achievements {
+    scroll-margin-top: 100px;
+}
 
 /* Profile tab */
 .mainbody {
@@ -76,6 +79,9 @@ a[href^="https:"]{color: inherit; text-decoration: none;}
 .mainbody2 {
     background-color: white; position: relative; top: 120px; left: 10%; width: 80%; height: auto; padding: 2%;
     display:inline-block;
+}
+.mainbody-indent {
+    padding-left: 20px;
 }
 .justifybox {
     display:flex; justify-content:space-between; width:96%;
@@ -135,9 +141,9 @@ a[href^="https:"]{color: inherit; text-decoration: none;}
 }
 .onlydesktop {height: auto; display: block;}
 .onlymobile {height: 0; display: none;}
-#education, #projects {
-    scroll-margin-top: 100px;
-}
+
+/* Leadership tab */
+tr.row td {border-top: 1px solid black;}
 
 @media (max-width: 800px) {
     /* Profile tab */
@@ -154,4 +160,8 @@ a[href^="https:"]{color: inherit; text-decoration: none;}
     .imgHoverP:hover span {display: none;}
     .imgHoverL:hover span {display: none;}
     .caption {display: none;}
+
+    /* Leadership tab */
+    .mod {width: 100%;}
+    .mod:hover .hoverpopup 	{visibility: hidden;}
 }
