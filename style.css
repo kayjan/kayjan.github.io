@@ -47,7 +47,9 @@ a[href^="https:"]{color: inherit; text-decoration: none;}
 .footnote {
     position: fixed; right: 1%; bottom: 1%;
 }
-#education, #projects, #leadership, #volunteer, #achievements {
+#education, #projects,
+#leadership, #volunteer, #achievements,
+#experience, #skills, #languages {
     scroll-margin-top: 100px;
 }
 
@@ -144,6 +146,11 @@ a[href^="https:"]{color: inherit; text-decoration: none;}
 
 /* Leadership tab */
 tr.row td {border-top: 1px solid black;}
+
+/* CV tab */
+ul {list-style: none; margin: 3px; margin-bottom: 0; padding: 0;}
+ul li:before {content: '✓ ';}
+ul.award li:before {content: '☆ ';}
 
 @media (max-width: 800px) {
     /* Profile tab */
