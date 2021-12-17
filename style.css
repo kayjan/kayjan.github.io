@@ -48,7 +48,7 @@ a[href^="https:"]{color: inherit; text-decoration: none;}
     position: fixed; right: 1%; bottom: 1%;
 }
 
-<!––Profile tab––>
+/* Profile tab */
 .mainbody {
     background-color: white; position: relative; top:20vh; height: 50vh; margin-left: 5%; margin-right: 5%; width: 90%;
     display: flex; align-items: center; vertical-align: middle; font-size: 1.1em; padding: 10px;
@@ -72,7 +72,7 @@ a[href^="https:"]{color: inherit; text-decoration: none;}
     height: 30px; vertical-align: middle; margin-right: 5px;
 }
 
-<!––Education tab––>
+/* Education tab */
 .mainbody2 {
     background-color: white; position: relative; top: 120px; left: 10%; width: 80%; height: auto; padding: 2%;
     display:inline-block;
@@ -140,7 +140,7 @@ a[href^="https:"]{color: inherit; text-decoration: none;}
 }
 
 @media (max-width: 800px) {
-    <!––Profile tab––>
+    /* Profile tab */
     .mainbody {display: inline-block; height: auto;}
     .webbody {display: none;}
     .mobilebody {display: initial;}
@@ -148,7 +148,7 @@ a[href^="https:"]{color: inherit; text-decoration: none;}
     .leftbanner {min-width: 90%; text-align: left;}
     .rightbanner {min-width: 90%;}
 
-    <!––Education tab––>
+    /* Education tab */
     .onlydesktop {height: 0; display: none;}
     .onlymobile {height: auto; display: block;}
     .imgHoverP:hover span {display: none;}
