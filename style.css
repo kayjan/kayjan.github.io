@@ -58,14 +58,8 @@ a[href^="https:"]{color: inherit; text-decoration: none;}
     background-color: white; position: relative; top:20vh; height: 50vh; margin-left: 5%; margin-right: 5%; width: 90%;
     display: flex; align-items: center; vertical-align: middle; font-size: 1.1em; padding: 10px;
 }
-.webbody {
-    display: initial;
-}
-.mobilebody {
-    display:none;
-}
 .centerbanner {
-    margin-left: 2%; margin-right: 2%; min-width: 20%; max-width: 20%;
+    margin-left: 2%; margin-right: 2%; min-width: 20%; max-width: 20%; text-align: center;
 }
 .leftbanner {
     text-align:right; min-width: 38%; max-width: 38%;
@@ -172,8 +166,6 @@ input[type=submit]:hover {background-color: #FFC600;}
 @media (max-width: 800px) {
     /* Profile tab */
     .mainbody {display: inline-block; height: auto;}
-    .webbody {display: none;}
-    .mobilebody {display: initial;}
     .centerbanner {min-width: 90%;}
     .leftbanner {min-width: 90%; text-align: left;}
     .rightbanner {min-width: 90%;}
