@@ -84,7 +84,7 @@ a[href^="https:"]{color: inherit; text-decoration: none;}
 }
 .timeline {
 	position: relative;
-	height: 50% !important;
+	height: 50vh !important;
 }
 .timeline:after { /* timeline ruler */
 	content: '';
