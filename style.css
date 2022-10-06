@@ -44,6 +44,7 @@ a[href^="https:"]{color: inherit; text-decoration: none;}
 .banner-link {
     margin: 0; padding: 0; font-size: 100%; color: #fff; padding-bottom: 1%; padding-right: 2%;
 }
+.paragraph {text-align: justify;}
 .footnote {
     position: fixed; right: 1%; bottom: 1%;
 }
@@ -200,6 +201,7 @@ tr.row td {border-top: 1px solid black;}
 ul {list-style: none; margin: 3px; margin-bottom: 0; padding: 0;}
 ul li:before {content: '✓ ';}
 ul.award li:before {content: '☆ ';}
+.small-paragraph {width: 90%;}
 
 /* Contact tab */
 .left-content {
