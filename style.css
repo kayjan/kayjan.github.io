@@ -199,6 +199,7 @@ tr.row td {border-top: 1px solid black;}
 
 /* CV tab */
 ul {list-style: none; margin: 3px; margin-bottom: 0; padding: 0;}
+ul li:before {content: '• ';}
 ul li.tick:before {content: '✓ ';}
 ul li.award:before {content: '☆ ';}
 .small-paragraph {width: 90%;}
